@@ -1,0 +1,47 @@
+h1,h2,h3 {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: bisque;
+    background-color: black;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:whitesmoke;
+}
+section.biodata, section.pengalaman, section.keahlian {
+    background-color:aliceblue;
+    display: block;
+    width: 300px;
+    padding: 70px;
+    margin: 50px;
+    border: 15px black;
+}
+header{
+    background-color:aliceblue ;
+    display: block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not {
+    background-color: #111;
+  }
+  
+  
